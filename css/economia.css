@@ -1,0 +1,121 @@
+/* 1rem = 10px */
+html {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+/* ===================== HEADER ======================= */
+
+header {
+    background: #f5b400;
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    padding: 0 4rem;
+    justify-content: space-between;
+}
+
+.Logo {
+    width: 6rem;
+}
+
+.menu-esquerda,
+.menu-direita {
+    display: flex;
+    gap: 3rem;
+}
+
+header a {
+    text-decoration: none;
+    color: #a40000;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+.titulo-header {
+    font-size: 3.2rem;
+    font-weight: bold;
+    color: #a40000;
+    margin: 0 4rem;
+}
+
+/* ===================== CONTEÚDO ======================= */
+
+.economia-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 5rem;
+}
+
+.economia-titulo {
+    text-align: center;
+    color: #a40000;
+    font-size: 3.6rem;
+    margin-bottom: 4rem;
+}
+
+/* ===================== BOXES ======================= */
+
+.box {
+    padding: 2.5rem;
+    border-radius: 1.5rem;
+    font-size: 1.8rem;
+    line-height: 1.7;
+    margin: 3rem auto;
+    width: 90%;
+    max-width: 900px;
+}
+
+.amarelo {
+    background: #fbd15b;
+}
+
+.vermelho {
+    background: #ae2b34;
+    color: white;
+}
+
+/* ===================== LINHAS COM IMAGENS ======================= */
+
+.linha {
+    display: flex;
+    width: 90%;
+    max-width: 1100px;
+    margin: 4rem auto;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.linha img {
+    width: 50%;
+    border-radius: 1.5rem;
+}
+
+.linha .texto-bloco {
+    width: 50%;
+    padding: 2rem;
+    font-size: 1.7rem;
+    line-height: 1.6;
+    border-radius: 1.5rem;
+}
+
+.linha .amarelo {
+    background: #fbd15b;
+}
+
+.linha .vermelho {
+    background: #ae2b34;
+    color: white;
+}
