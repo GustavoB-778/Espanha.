@@ -59,3 +59,86 @@ nav a:hover {
     margin-top: 0rem;
 
 }
+
+
+.topo {
+    display:flex;
+    justify-content:center; 
+    padding:28px 0; 
+    background:#fff; 
+}
+
+.banner { 
+    width:70%; 
+    max-width:900px; 
+    border-radius:12px; 
+    box-shadow:0 8px 20px rgba(0,0,0,0.12); 
+}
+
+.container {
+  width: 92%;
+  max-width: 1100px;
+  margin: 34px auto;
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 28px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+}
+
+.perguntas {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Isso aqui tive que pesquisar como que fazia pq nois nao sabia como que faz*/
+  gap: 22px;
+  justify-content: center;
+}
+
+.card-pergunta {
+  background: #fff;
+  border-radius: 10px;
+  padding: 18px;
+  min-height: 170px;
+  box-shadow: 0 6px 14px rgba(0,0,0,0.06);
+}
+
+.card-pergunta h3 {
+  font-size: 16px;
+  margin-bottom: 12px;
+  color: #222;
+}
+
+.card-pergunta label {
+  display: block;
+  margin: 6px 0;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.btn-enviar {
+  background: #fccc38;
+  color: #000;
+  border: none;
+  padding: 12px 28px;
+  font-size: 16px;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: transform .12s ease, box-shadow .12s ease; /* Isso aqui tive que pesquisar como que fazia pq nois nao sabia como que faz*/
+  box-shadow: 0 6px 14px rgba(0,0,0,0.08);
+  grid-column: 1 / -1;   /* Isso aqui tive que pesquisar como que fazia pq nois nao sabia como que faz*/
+  justify-self: center;
+}
+.menu-esquerda {
+
+    gap: 2rem;
+
+
+}
+.menu-direita {
+
+    align-items: center;
+    gap: 2rem;
+}
+
+.menu-direita a:first-child {
+
+    margin-inline-end: 2rem;
+}

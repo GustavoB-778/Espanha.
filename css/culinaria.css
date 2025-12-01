@@ -14,6 +14,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 140rem;
 }
 
 header {
@@ -70,78 +71,117 @@ nav a:hover {
     box-shadow: 0 0 1.5rem #00000060; 
     text-align: center;
     background-color: #9d353c;
+    height: 115rem;
 
-    .paella{
+    
+
+}
+
+.paella{
     position: relative;
     display: flex;
-    right: 0.1rem;
+    left: 2.1rem;
     }
     .paella-e{
     position: relative;
     display: flex;
-    gap: 2rem;
+    gap: 2rem; 
     right: 1rem;
-     display: grid;
-    grid-template-columns: 30rem;
-    gap: 20px;
-    align-items: start;
+     display: grid; /* Isso aqui tive que pesquisar como que fazia pq nois nao sabia como que faz*/
+    grid-template-columns: 30rem; /* Isso aqui tive que pesquisar como que fazia pq nois nao sabia como que faz*/
+    gap: 20px; 
+    align-items: start; /* Isso aqui tive que pesquisar como que fazia pq nois nao sabia como que faz*/
     }
 
     .santiago{
     position: relative;
     display: flex;
     left: 32rem;
+    bottom: 22rem;
     }
     .santiago-d{
     position: relative;
+    display: flex;
+    gap: 2rem; 
+    left: 23.3rem;
+     display: grid; /* Isso aqui tive que pesquisar como que fazia pq nois nao sabia como que faz*/
+    grid-template-columns: 30rem; /* Isso aqui tive que pesquisar como que fazia pq nois nao sabia como que faz*/
+    gap: 20px; 
+    align-items: start; /* Isso aqui tive que pesquisar como que fazia pq nois nao sabia como que faz*/
+    bottom: 21rem;
     }
 
     .febada{
     position: relative;
     display: flex;
-    right: 0.1rem;
+    left: 2.1rem;
+    top: -43rem;
     }
     .febada-e{
     position: relative;
+    display: flex;
+    gap: 2rem; 
+    left: 1rem;
+     display: grid; /* Isso aqui tive que pesquisar como que fazia pq nois nao sabia como que faz*/
+    grid-template-columns: 30rem; /* Isso aqui tive que pesquisar como que fazia pq nois nao sabia como que faz*/
+    gap: 20px; 
+    align-items: start; /* Isso aqui tive que pesquisar como que fazia pq nois nao sabia como que faz*/
+    top: -42rem;
     }
 
     .gazpacho{
     position: relative;
     display: flex;
-    left: 41rem;
+    right: -41rem;
+    top: -65rem;
     }
     .gazpacho-d{
     position: relative;
+    display: flex; 
+    gap: 1.9rem; 
+    left: 23.3rem;
+     display: grid; /* Isso aqui tive que pesquisar como que fazia pq nois nao sabia como que faz*/
+    grid-template-columns: 30rem; /* Isso aqui tive que pesquisar como que fazia pq nois nao sabia como que faz*/
+    gap: 20px; 
+    align-items: start; /* Isso aqui tive que pesquisar como que fazia pq nois nao sabia como que faz*/
+    top: -64rem;
     }
 
     
     .paella-d-i{
     position: relative;
-    height: 10rem;
     border-radius: 15%;
-    top: 1rem;
+    bottom: 29rem;
+    left: 16rem;
+    width: 20rem;
+
     }
     .santiago-e-i{
     position: relative;
-    height: 10rem;
     border-radius: 15%;
+    bottom: 47rem;
+    right: 16rem;
+    width: 20rem;
     }
     .febada-d-i{
     position: relative;
-    height: 10rem;
     border-radius: 15%;
+    top: -68rem;
+    left: 16rem;
+    width: 20rem;
     }
     .gazpacho-e-i{
     position: relative;
-    height: 10rem;
     border-radius: 15%;
+    top: -90rem;
+    right: 16rem;
+    width: 20rem;
     }
 
     .ultimo{
     position: relative;
+    top: -87rem;
     }
-
-}
 
 
 .menu-esquerda {

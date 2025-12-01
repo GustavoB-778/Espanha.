@@ -1,121 +1,127 @@
-/* 1rem = 10px */
-html {
-    font-size: 62.5%;
-}
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
-
-body {
-    background: #ffffff;
+body{
+   margin: 0;
+    padding: 0;
     font-family: Arial, sans-serif;
+    background-color: white;
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-
-/* ===================== HEADER ======================= */
 
 header {
-    background: #f5b400;
-    height: 8rem;
+    width: 100%;
+    height: 9rem;
+    background: #ffbe00;
     display: flex;
     align-items: center;
-    padding: 0 4rem;
     justify-content: space-between;
+    padding: 0 4rem; 
 }
 
-.Logo {
-    width: 6rem;
+header img {
+    height: 6rem;
 }
 
-.menu-esquerda,
-.menu-direita {
+
+nav {
     display: flex;
     gap: 3rem;
 }
 
-header a {
+nav a {
     text-decoration: none;
-    color: #a40000;
-    font-weight: bold;
-    font-size: 1.8rem;
+    color: #d70000;
+    font-size: 2rem; 
+    font-weight: 600;
+    transition: 0.2s;
 }
+
+nav a:hover {
+    color: #ffffff;
+}
+
 
 .titulo-header {
-    font-size: 3.2rem;
-    font-weight: bold;
-    color: #a40000;
-    margin: 0 4rem;
+    font-size: 2.6rem; 
+    font-weight: 800;
+    color: red;
+    margin-inline-start: 3rem;
+    margin-inline-end: 3rem;
+    align-items: center;
+    margin-top: 0rem;
+
 }
 
-/* ===================== CONTEÚDO ======================= */
-
-.economia-container {
-    width: 100%;
-    max-width: 1200px;
-    margin: auto;
-    padding-top: 5rem;
+.conteudo {
+  width: 92%;
+  max-width: 1100px;
+  margin: 40px auto;
 }
 
-.economia-titulo {
-    text-align: center;
-    color: #a40000;
-    font-size: 3.6rem;
-    margin-bottom: 4rem;
+.titulo-pagina {
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 800;
+  color: #b30000;
+  margin-bottom: 30px;
 }
 
-/* ===================== BOXES ======================= */
-
-.box {
-    padding: 2.5rem;
-    border-radius: 1.5rem;
-    font-size: 1.8rem;
-    line-height: 1.7;
-    margin: 3rem auto;
-    width: 90%;
-    max-width: 900px;
+.bloco {
+  padding: 20px;
+  border-radius: 14px;
+  margin-bottom: 28px;
+  font-size: 1.05rem;
+  line-height: 1.5rem; /* Isso aqui tive que pesquisar como que fazia pq nois nao sabia como que faz*/
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
 }
 
-.amarelo {
-    background: #fbd15b;
+.texto-amarelo {
+  background: #f7c948;
 }
 
-.vermelho {
-    background: #ae2b34;
-    color: white;
+.texto-vermelho {
+  background: #9e1c1c;
+  color: white;
 }
-
-/* ===================== LINHAS COM IMAGENS ======================= */
 
 .linha {
-    display: flex;
-    width: 90%;
-    max-width: 1100px;
-    margin: 4rem auto;
+  display: flex;
+  gap: 22px;
+  margin-bottom: 30px;
+  align-items: stretch;
+}
+
+.imagem {
+  width: 50%;
+  border-radius: 14px;
+  object-fit: cover; /* Isso aqui tive que pesquisar como que fazia pq nois nao sabia como que faz*/
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+}
+
+.linha .bloco {
+  width: 50%;
+}
+
+.menu-esquerda {
+
+    gap: 2rem;
+
+
+}
+.menu-direita {
+
     align-items: center;
-    justify-content: space-between;
-    gap: 3rem;
+    gap: 2rem;
 }
 
-.linha img {
-    width: 50%;
-    border-radius: 1.5rem;
-}
+.menu-direita a:first-child {
 
-.linha .texto-bloco {
-    width: 50%;
-    padding: 2rem;
-    font-size: 1.7rem;
-    line-height: 1.6;
-    border-radius: 1.5rem;
-}
-
-.linha .amarelo {
-    background: #fbd15b;
-}
-
-.linha .vermelho {
-    background: #ae2b34;
-    color: white;
+    margin-inline-end: 2rem;
 }

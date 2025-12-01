@@ -59,6 +59,50 @@ nav a:hover {
     margin-top: 0rem;
 
 }
+.comida-d {
+
+     position: relative;
+     top: 10rem;
+
+}
+
+header img {
+    height: 6rem;
+}
+
+
+nav {
+    display: flex;
+    gap: 3rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #d70000;
+    font-size: 2rem; 
+    font-weight: 600;
+    transition: 0.2s;
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+
+
+.titulo-header {
+    font-size: 2.6rem; 
+    font-weight: 800;
+    color: red;
+    margin-inline-start: 3rem;
+    margin-inline-end: 3rem;
+    align-items: center;
+    margin-top: 0rem;
+}
+
+.img {
+    border-radius: 10px;
+    margin-right: 10px;
+}
 
 
 .card-login {
@@ -69,7 +113,8 @@ nav a:hover {
     border-radius: 2rem; 
     box-shadow: 0 0 1.5rem #00000060; 
     text-align: center;
-    background-color: #9d353c;}
+    height: 60rem;
+    background-color: rgb(245, 216, 54);}
 
  
     .comida-d-i{
@@ -81,7 +126,27 @@ nav a:hover {
     position: absolute;
     height: 1rem;
     }
+
+    .p1{
+
+        position: relative;
+        left: 3rem;
+        display: flex; 
+    gap: 1.9rem; 
+    right: 3rem;
+     display: grid; /* Isso aqui tive que pesquisar como que fazia pq nois nao sabia como que faz*/
+    grid-template-columns: 25rem; /* Isso aqui tive que pesquisar como que fazia pq nois nao sabia como que faz*/
+    gap: 10px; 
+    align-items: start; /* Isso aqui tive que pesquisar como que fazia pq nois nao sabia como que faz*/
+    bottom: 64rem;
+        top: 20rem;
+    }
     
+    .comida-e{
+        position: relative;
+        top: 5rem;
+    }
+
     img{
 
     margin-top: 3rem;
@@ -107,9 +172,4 @@ nav a:hover {
 .menu-direita a:first-child {
 
     margin-inline-end: 2rem;
-}
-
-h2 {
-    font-size: 2rem;
-    margin-bottom: 2rem;
 }
